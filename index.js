@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/api/health", (req, res) => {
-  res.json({ ok: true });
+  res.json({ testttttttttttttt: "ok" });
 });
 
 const PORT = process.env.PORT || 3001;
