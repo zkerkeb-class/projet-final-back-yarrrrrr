@@ -1,0 +1,2015 @@
+[
+  {
+    "Id": 1,
+    "Gen": 1,
+    "Nom": "Olga",
+    "Type": "Glace",
+    "Avatar": "http://localhost/assets/dresseur/gen1/algo.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Lamantine",
+        "Niveau": 54,
+        "Type1": "Eau",
+        "Type2": "Glace",
+        "Faiblesse": ["Électrik", "Plante", "Combat", "Roche"],
+        "Resistance": ["Eau", "Glace"],
+        "Photo": "http://localhost/assets/pokemon/gen1/olga/lamantine.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Crustabri",
+        "Niveau": 53,
+        "Type1": "Eau",
+        "Type2": "Glace",
+        "Faiblesse": ["Électrik", "Plante", "Combat", "Roche"],
+        "Resistance": ["Eau", "Glace"],
+        "Photo": "http://localhost/assets/pokemon/gen1/olga/crustabri.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Flagadoss",
+        "Niveau": 54,
+        "Type1": "Eau",
+        "Type2": "Psy",
+        "Faiblesse": ["Électrik", "Plante", "Insecte", "Spectre"],
+        "Resistance": ["Combat", "Feu", "Eau", "Psy", "Glace"],
+        "Photo": "http://localhost/assets/pokemon/gen1/olga/flagadoss.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Lippoutou",
+        "Niveau": 56,
+        "Type1": "Glace",
+        "Type2": "Psy",
+        "Faiblesse": ["Feu", "Roche", "Insecte", "Spectre"],
+        "Resistance": ["Glace", "Psy"],
+        "Photo": "http://localhost/assets/pokemon/gen1/olga/lippoutou.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Lokhlass",
+        "Niveau": 56,
+        "Type1": "Eau",
+        "Type2": "Glace",
+        "Faiblesse": ["Électrik", "Plante", "Combat", "Roche"],
+        "Resistance": ["Eau", "Glace"],
+        "Photo": "http://localhost/assets/pokemon/gen1/olga/lokhlass.png"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Gen": 1,
+    "Nom": "Aldo",
+    "Type": "Combat",
+    "Avatar": "http://localhost/assets/dresseur/gen1/aldo.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Onix",
+        "Niveau": 53,
+        "Type1": "Roche",
+        "Type2": "Sol",
+        "Faiblesse": ["Eau", "Plante", "Combat", "Sol", "Glace"],
+        "Resistance": ["Normal", "Feu", "Vol", "Poison", "Roche"],
+        "Photo": "http://localhost/assets/pokemon/gen1/aldo/onix.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Tygnon",
+        "Niveau": 55,
+        "Type1": "Combat",
+        "Type2": null,
+        "Faiblesse": ["Vol", "Psy"],
+        "Resistance": ["Roche", "Insecte"],
+        "Photo": "http://localhost/assets/pokemon/gen1/aldo/tygnon.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Kicklee",
+        "Niveau": 55,
+        "Type1": "Combat",
+        "Type2": null,
+        "Faiblesse": ["Vol", "Psy"],
+        "Resistance": ["Roche", "Insecte"],
+        "Photo": "http://localhost/assets/pokemon/gen1/aldo/kicklee.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Onix",
+        "Niveau": 56,
+        "Type1": "Roche",
+        "Type2": "Sol",
+        "Faiblesse": ["Eau", "Plante", "Combat", "Sol", "Glace"],
+        "Resistance": ["Normal", "Feu", "Vol", "Poison", "Roche"],
+        "Photo": "http://localhost/assets/pokemon/gen1/aldo/onix.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Mackogneur",
+        "Niveau": 58,
+        "Type1": "Combat",
+        "Type2": null,
+        "Faiblesse": ["Vol", "Psy"],
+        "Resistance": ["Roche", "Insecte"],
+        "Photo": "http://localhost/assets/pokemon/gen1/aldo/mackogneur.png"
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Gen": 1,
+    "Nom": "Agatha",
+    "Type": "Spectre",
+    "Avatar": "http://localhost/assets/dresseur/gen1/agatha.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Ectoplasma",
+        "Niveau": 56,
+        "Type1": "Spectre",
+        "Type2": "Poison",
+        "Faiblesse": ["Spectre", "Psy", "Sol"],
+        "Resistance": [
+          "Insecte",
+          "Poison",
+          "Plante",
+          "Normal (immunité)",
+          "Combat (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen1/agatha/ectoplasma.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Nosferalto",
+        "Niveau": 56,
+        "Type1": "Poison",
+        "Type2": "Vol",
+        "Faiblesse": ["Électrik", "Glace", "Roche", "Psy"],
+        "Resistance": [
+          "Combat",
+          "Poison",
+          "Insecte",
+          "Plante (résistance x4)",
+          "Sol (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen1/agatha/nosferalto.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Spectrum",
+        "Niveau": 55,
+        "Type1": "Spectre",
+        "Type2": "Poison",
+        "Faiblesse": ["Spectre", "Psy", "Sol"],
+        "Resistance": [
+          "Insecte",
+          "Poison",
+          "Plante",
+          "Normal (immunité)",
+          "Combat (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen1/agatha/spectrum.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Arbok",
+        "Niveau": 58,
+        "Type1": "Poison",
+        "Type2": null,
+        "Faiblesse": ["Sol", "Psy"],
+        "Resistance": ["Combat", "Poison", "Insecte", "Plante"],
+        "Photo": "http://localhost/assets/pokemon/gen1/agatha/arbok.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Ectoplasma",
+        "Niveau": 60,
+        "Type1": "Spectre",
+        "Type2": "Poison",
+        "Faiblesse": ["Spectre", "Psy", "Sol"],
+        "Resistance": [
+          "Insecte",
+          "Poison",
+          "Plante",
+          "Normal (immunité)",
+          "Combat (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen1/agatha/ectoplasma.png"
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Gen": 1,
+    "Nom": "Peter",
+    "Type": "Dragon",
+    "Avatar": "http://localhost/assets/dresseur/gen1/peter.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Léviator",
+        "Niveau": 58,
+        "Type1": "Eau",
+        "Type2": "Vol",
+        "Faiblesse": ["Électrik (faiblesse x4)", "Roche"],
+        "Resistance": ["Combat", "Insecte", "Feu", "Eau", "Sol (immunité)"],
+        "Photo": "http://localhost/assets/pokemon/gen1/peter/leviator.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Draco",
+        "Niveau": 56,
+        "Type1": "Dragon",
+        "Type2": null,
+        "Faiblesse": ["Glace", "Dragon"],
+        "Resistance": ["Feu", "Eau", "Électrik", "Plante"],
+        "Photo": "http://localhost/assets/pokemon/gen1/peter/draco.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Draco",
+        "Niveau": 56,
+        "Type1": "Dragon",
+        "Type2": null,
+        "Faiblesse": ["Glace", "Dragon"],
+        "Resistance": ["Feu", "Eau", "Électrik", "Plante"],
+        "Photo": "http://localhost/assets/pokemon/gen1/peter/draco.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Ptéra",
+        "Niveau": 60,
+        "Type1": "Roche",
+        "Type2": "Vol",
+        "Faiblesse": ["Eau", "Électrik", "Glace", "Roche"],
+        "Resistance": ["Normal", "Feu", "Vol", "Poison", "Sol (immunité)"],
+        "Photo": "http://localhost/assets/pokemon/gen1/peter/ptera.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Dracolosse",
+        "Niveau": 62,
+        "Type1": "Dragon",
+        "Type2": "Vol",
+        "Faiblesse": ["Glace (faiblesse x4)", "Roche", "Dragon"],
+        "Resistance": [
+          "Combat",
+          "Insecte",
+          "Feu",
+          "Eau",
+          "Électrik (résistance x2)",
+          "Plante (résistance x2)",
+          "Sol (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen1/peter/dracolosse.png"
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Gen": 1,
+    "Nom": "Maître Blue",
+    "Type": "Varié",
+    "Avatar": "http://localhost/assets/dresseur/gen1/blue.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Sablaireau",
+        "Niveau": 61,
+        "Type1": "Sol",
+        "Type2": null,
+        "Faiblesse": ["Eau", "Plante", "Glace"],
+        "Resistance": ["Poison", "Roche", "Électrik (immunité)"],
+        "Photo": "http://localhost/assets/pokemon/gen1/blue/sablaireau.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Alakazam",
+        "Niveau": 59,
+        "Type1": "Psy",
+        "Type2": null,
+        "Faiblesse": ["Insecte", "Spectre"],
+        "Resistance": ["Combat", "Psy"],
+        "Photo": "http://localhost/assets/pokemon/gen1/blue/alakazam.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Noadkoko",
+        "Niveau": 61,
+        "Type1": "Plante",
+        "Type2": "Psy",
+        "Faiblesse": [
+          "Feu",
+          "Glace",
+          "Vol",
+          "Poison",
+          "Insecte (faiblesse x4)",
+          "Spectre"
+        ],
+        "Resistance": ["Combat", "Sol", "Eau", "Plante", "Électrik", "Psy"],
+        "Photo": "http://localhost/assets/pokemon/gen1/blue/noadkoko.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Magnéton",
+        "Niveau": 63,
+        "Type1": "Électrik",
+        "Type2": null,
+        "Faiblesse": ["Sol"],
+        "Resistance": ["Vol", "Acier", "Électrik"],
+        "Photo": "http://localhost/assets/pokemon/gen1/blue/magneton.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Pyroli",
+        "Niveau": 65,
+        "Type1": "Feu",
+        "Type2": null,
+        "Faiblesse": ["Eau", "Sol", "Roche"],
+        "Resistance": ["Combat", "Insecte", "Feu", "Plante", "Glace"],
+        "Photo": "http://localhost/assets/pokemon/gen1/blue/pyroli.png"
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "Gen": 2,
+    "Nom": "Clément",
+    "Type": "Psy",
+    "Avatar": "http://localhost/assets/dresseur/gen2/clement.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Xatu",
+        "Niveau": 40,
+        "Type1": "Psy",
+        "Type2": "Vol",
+        "Faiblesse": ["Roche", "Électrik", "Glace", "Spectre", "Ténèbres"],
+        "Resistance": ["Combat", "Psy (résistance x2)", "Plante"],
+        "Photo": "http://localhost/assets/pokemon/gen2/clement/xatu.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Lippoutou",
+        "Niveau": 41,
+        "Type1": "Glace",
+        "Type2": "Psy",
+        "Faiblesse": ["Feu", "Roche", "Insecte", "Spectre", "Ténèbres"],
+        "Resistance": ["Glace", "Psy"],
+        "Photo": "http://localhost/assets/pokemon/gen2/clement/lippoutou.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Noadkoko",
+        "Niveau": 41,
+        "Type1": "Plante",
+        "Type2": "Psy",
+        "Faiblesse": [
+          "Feu",
+          "Glace",
+          "Vol",
+          "Poison",
+          "Insecte (faiblesse x4)",
+          "Spectre",
+          "Ténèbres"
+        ],
+        "Resistance": ["Combat", "Sol", "Eau", "Plante", "Électrik", "Psy"],
+        "Photo": "http://localhost/assets/pokemon/gen2/clement/noadkoko.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Flagadoss",
+        "Niveau": 41,
+        "Type1": "Eau",
+        "Type2": "Psy",
+        "Faiblesse": ["Électrik", "Plante", "Insecte", "Spectre", "Ténèbres"],
+        "Resistance": ["Combat", "Feu", "Eau", "Psy", "Glace"],
+        "Photo": "http://localhost/assets/pokemon/gen2/clement/flagadoss.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Xatu",
+        "Niveau": 42,
+        "Type1": "Psy",
+        "Type2": "Vol",
+        "Faiblesse": ["Roche", "Électrik", "Glace", "Spectre", "Ténèbres"],
+        "Resistance": ["Combat", "Psy (résistance x2)", "Plante"],
+        "Photo": "http://localhost/assets/pokemon/gen2/clement/xatu.png"
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "Gen": 2,
+    "Nom": "Koga",
+    "Type": "Poison",
+    "Avatar": "http://localhost/assets/dresseur/gen2/koga.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Migalos",
+        "Niveau": 40,
+        "Type1": "Insecte",
+        "Type2": "Poison",
+        "Faiblesse": ["Vol", "Roche", "Feu", "Psy"],
+        "Resistance": ["Combat", "Poison", "Insecte", "Plante"],
+        "Photo": "http://localhost/assets/pokemon/gen2/koga/migalos.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Aéromite",
+        "Niveau": 41,
+        "Type1": "Insecte",
+        "Type2": "Poison",
+        "Faiblesse": ["Vol", "Roche", "Feu", "Psy"],
+        "Resistance": ["Combat", "Poison", "Insecte", "Plante"],
+        "Photo": "http://localhost/assets/pokemon/gen2/koga/aeromite.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Foretress",
+        "Niveau": 43,
+        "Type1": "Insecte",
+        "Type2": "Acier",
+        "Faiblesse": ["Feu (faiblesse x4)"],
+        "Resistance": [
+          "Normal",
+          "Insecte",
+          "Plante",
+          "Glace",
+          "Psy",
+          "Dragon",
+          "Acier",
+          "Ténèbres"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen2/koga/foretress.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Grotadmorv",
+        "Niveau": 42,
+        "Type1": "Poison",
+        "Type2": null,
+        "Faiblesse": ["Sol", "Psy"],
+        "Resistance": ["Combat", "Poison", "Insecte", "Plante"],
+        "Photo": "http://localhost/assets/pokemon/gen2/koga/grotadmorv.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Nostenfer",
+        "Niveau": 44,
+        "Type1": "Poison",
+        "Type2": "Vol",
+        "Faiblesse": ["Électrik", "Glace", "Roche", "Psy"],
+        "Resistance": [
+          "Combat",
+          "Poison",
+          "Insecte",
+          "Plante (résistance x4)",
+          "Sol (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen2/koga/nostenfer.png"
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "Gen": 2,
+    "Nom": "Aldo",
+    "Type": "Combat",
+    "Avatar": "http://localhost/assets/dresseur/gen2/aldo.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Kapoera",
+        "Niveau": 42,
+        "Type1": "Combat",
+        "Type2": null,
+        "Faiblesse": ["Vol", "Psy"],
+        "Resistance": ["Roche", "Insecte", "Ténèbres"],
+        "Photo": "http://localhost/assets/pokemon/gen2/aldo/kapoera.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Kicklee",
+        "Niveau": 42,
+        "Type1": "Combat",
+        "Type2": null,
+        "Faiblesse": ["Vol", "Psy"],
+        "Resistance": ["Roche", "Insecte", "Ténèbres"],
+        "Photo": "http://localhost/assets/pokemon/gen2/aldo/kicklee.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Tygnon",
+        "Niveau": 42,
+        "Type1": "Combat",
+        "Type2": null,
+        "Faiblesse": ["Vol", "Psy"],
+        "Resistance": ["Roche", "Insecte", "Ténèbres"],
+        "Photo": "http://localhost/assets/pokemon/gen2/aldo/tygnon.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Onix",
+        "Niveau": 43,
+        "Type1": "Roche",
+        "Type2": "Sol",
+        "Faiblesse": ["Eau", "Plante", "Combat", "Sol", "Acier", "Glace"],
+        "Resistance": ["Normal", "Feu", "Vol", "Poison", "Roche"],
+        "Photo": "http://localhost/assets/pokemon/gen2/aldo/onix.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Mackogneur",
+        "Niveau": 46,
+        "Type1": "Combat",
+        "Type2": null,
+        "Faiblesse": ["Vol", "Psy"],
+        "Resistance": ["Roche", "Insecte", "Ténèbres"],
+        "Photo": "http://localhost/assets/pokemon/gen2/aldo/mackogneur.png"
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "Gen": 2,
+    "Nom": "Marion",
+    "Type": "Ténèbres / Spectre",
+    "Avatar": "http://localhost/assets/dresseur/gen2/marion.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Noctali",
+        "Niveau": 42,
+        "Type1": "Ténèbres",
+        "Type2": null,
+        "Faiblesse": ["Combat", "Insecte", "Fée"],
+        "Resistance": ["Spectre", "Ténèbres (résistance x2)", "Psy (immunité)"],
+        "Photo": "http://localhost/assets/pokemon/gen2/marion/noctali.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Rafflesia",
+        "Niveau": 42,
+        "Type1": "Plante",
+        "Type2": "Poison",
+        "Faiblesse": ["Vol", "Feu", "Glace", "Psy"],
+        "Resistance": ["Combat", "Poison", "Insecte", "Plante (résistance x2)"],
+        "Photo": "http://localhost/assets/pokemon/gen2/marion/rafflesia.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Ectoplasma",
+        "Niveau": 45,
+        "Type1": "Spectre",
+        "Type2": "Poison",
+        "Faiblesse": ["Spectre", "Psy", "Sol"],
+        "Resistance": [
+          "Insecte",
+          "Poison",
+          "Plante",
+          "Spectre",
+          "Ténèbres",
+          "Normal (immunité)",
+          "Combat (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen2/marion/ectoplasma.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Cornèbre",
+        "Niveau": 44,
+        "Type1": "Ténèbres",
+        "Type2": "Vol",
+        "Faiblesse": ["Électrik", "Roche", "Glace", "Fée"],
+        "Resistance": [
+          "Spectre",
+          "Ténèbres (résistance x2)",
+          "Plante",
+          "Psy (immunité)",
+          "Sol (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen2/marion/cornebre.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Démolosse",
+        "Niveau": 47,
+        "Type1": "Ténèbres",
+        "Type2": "Feu",
+        "Faiblesse": ["Combat", "Sol", "Roche", "Eau"],
+        "Resistance": [
+          "Spectre",
+          "Ténèbres",
+          "Feu (résistance x2)",
+          "Plante",
+          "Glace",
+          "Acier",
+          "Fée"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen2/marion/demolosse.png"
+      }
+    ]
+  },
+  {
+    "Id": 10,
+    "Gen": 2,
+    "Nom": "Maître Peter",
+    "Type": "Dragon",
+    "Avatar": "http://localhost/assets/dresseur/gen2/peter.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Léviator",
+        "Niveau": 44,
+        "Type1": "Eau",
+        "Type2": "Vol",
+        "Faiblesse": ["Électrik (faiblesse x4)", "Roche"],
+        "Resistance": [
+          "Combat",
+          "Insecte",
+          "Feu",
+          "Eau",
+          "Acier",
+          "Sol (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen2/peter/leviator.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Dracolosse",
+        "Niveau": 47,
+        "Type1": "Dragon",
+        "Type2": "Vol",
+        "Faiblesse": ["Glace (faiblesse x4)", "Roche", "Dragon", "Fée"],
+        "Resistance": [
+          "Combat",
+          "Insecte",
+          "Feu",
+          "Eau",
+          "Électrik (résistance x2)",
+          "Plante (résistance x2)",
+          "Sol (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen2/peter/dracolosse.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Ptéra",
+        "Niveau": 46,
+        "Type1": "Roche",
+        "Type2": "Vol",
+        "Faiblesse": ["Eau", "Électrik", "Glace", "Roche", "Acier"],
+        "Resistance": ["Normal", "Feu", "Vol", "Poison", "Sol (immunité)"],
+        "Photo": "http://localhost/assets/pokemon/gen2/peter/ptera.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Dracaufeu",
+        "Niveau": 46,
+        "Type1": "Feu",
+        "Type2": "Vol",
+        "Faiblesse": ["Eau", "Électrik (faiblesse x2)", "Roche (faiblesse x4)"],
+        "Resistance": [
+          "Combat",
+          "Insecte (résistance x2)",
+          "Acier",
+          "Feu (résistance x2)",
+          "Plante (résistance x2)",
+          "Fée"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen2/peter/dracaufeu.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Dracolosse",
+        "Niveau": 50,
+        "Type1": "Dragon",
+        "Type2": "Vol",
+        "Faiblesse": ["Glace (faiblesse x4)", "Roche", "Dragon", "Fée"],
+        "Resistance": [
+          "Combat",
+          "Insecte",
+          "Feu",
+          "Eau",
+          "Électrik (résistance x2)",
+          "Plante (résistance x2)",
+          "Sol (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen2/peter/dracolosse.png"
+      }
+    ]
+  },
+  {
+    "Id": 11,
+    "Gen": 3,
+    "Nom": "Conseil 4 Damien",
+    "Type": "Ténèbres / Plante",
+    "Avatar": "http://localhost/assets/dresseur/gen3/damien.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Grahyèna",
+        "Niveau": 46,
+        "Type1": "Ténèbres",
+        "Type2": null,
+        "Faiblesse": ["Combat", "Insecte", "Fée"],
+        "Resistance": ["Spectre", "Ténèbres (résistance x2)", "Psy (immunité)"],
+        "Photo": "http://localhost/assets/pokemon/gen3/damien/grahyena.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Cacturne",
+        "Niveau": 46,
+        "Type1": "Plante",
+        "Type2": "Ténèbres",
+        "Faiblesse": [
+          "Feu",
+          "Vol",
+          "Poison",
+          "Glace",
+          "Combat",
+          "Insecte",
+          "Fée"
+        ],
+        "Resistance": ["Sol", "Spectre", "Eau", "Plante", "Électrik", "Psy"],
+        "Photo": "http://localhost/assets/pokemon/gen3/damien/cacturne.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Tengalice",
+        "Niveau": 48,
+        "Type1": "Plante",
+        "Type2": "Ténèbres",
+        "Faiblesse": [
+          "Feu",
+          "Vol",
+          "Poison",
+          "Glace",
+          "Combat",
+          "Insecte (faiblesse x4)",
+          "Fée"
+        ],
+        "Resistance": ["Sol", "Spectre", "Eau", "Plante", "Électrik", "Psy"],
+        "Photo": "http://localhost/assets/pokemon/gen3/damien/tengalice.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Sharpedo",
+        "Niveau": 48,
+        "Type1": "Eau",
+        "Type2": "Ténèbres",
+        "Faiblesse": ["Électrik", "Plante", "Combat", "Insecte", "Fée"],
+        "Resistance": ["Spectre", "Feu", "Eau", "Glace", "Acier"],
+        "Photo": "http://localhost/assets/pokemon/gen3/damien/sharpedo.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Absol",
+        "Niveau": 49,
+        "Type1": "Ténèbres",
+        "Type2": null,
+        "Faiblesse": ["Combat", "Insecte", "Fée"],
+        "Resistance": ["Spectre", "Ténèbres (résistance x2)", "Psy (immunité)"],
+        "Photo": "http://localhost/assets/pokemon/gen3/damien/absol.png"
+      }
+    ]
+  },
+  {
+    "Id": 12,
+    "Gen": 3,
+    "Nom": "Conseil 4 Spectra",
+    "Type": "Spectre",
+    "Avatar": "http://localhost/assets/dresseur/gen3/spectra.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Téraclope",
+        "Niveau": 49,
+        "Type1": "Spectre",
+        "Type2": null,
+        "Faiblesse": ["Spectre", "Ténèbres"],
+        "Resistance": [
+          "Poison",
+          "Insecte",
+          "Normal (immunité)",
+          "Combat (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen3/spectra/teraclope.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Branette",
+        "Niveau": 49,
+        "Type1": "Spectre",
+        "Type2": null,
+        "Faiblesse": ["Spectre", "Ténèbres"],
+        "Resistance": [
+          "Poison",
+          "Insecte",
+          "Normal (immunité)",
+          "Combat (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen3/spectra/branette.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Branette",
+        "Niveau": 50,
+        "Type1": "Spectre",
+        "Type2": null,
+        "Faiblesse": ["Spectre", "Ténèbres"],
+        "Resistance": [
+          "Poison",
+          "Insecte",
+          "Normal (immunité)",
+          "Combat (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen3/spectra/branette.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Ténéfix",
+        "Niveau": 50,
+        "Type1": "Ténèbres",
+        "Type2": "Spectre",
+        "Faiblesse": ["Fée"],
+        "Resistance": [
+          "Poison",
+          "Normal (immunité)",
+          "Combat (immunité)",
+          "Psy (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen3/spectra/tenefix.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Téraclope",
+        "Niveau": 51,
+        "Type1": "Spectre",
+        "Type2": null,
+        "Faiblesse": ["Spectre", "Ténèbres"],
+        "Resistance": [
+          "Poison",
+          "Insecte",
+          "Normal (immunité)",
+          "Combat (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen3/spectra/teraclope.png"
+      }
+    ]
+  },
+  {
+    "Id": 13,
+    "Gen": 3,
+    "Nom": "Conseil 4 Glacia",
+    "Type": "Glace",
+    "Avatar": "http://localhost/assets/dresseur/gen3/glacia.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Oniglali",
+        "Niveau": 50,
+        "Type1": "Glace",
+        "Type2": null,
+        "Faiblesse": ["Feu", "Combat", "Roche", "Acier"],
+        "Resistance": ["Glace"],
+        "Photo": "http://localhost/assets/pokemon/gen3/glacia/oniglali.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Phogleur",
+        "Niveau": 50,
+        "Type1": "Glace",
+        "Type2": "Eau",
+        "Faiblesse": ["Électrik", "Plante", "Combat", "Roche"],
+        "Resistance": ["Eau", "Glace"],
+        "Photo": "http://localhost/assets/pokemon/gen3/glacia/phogleur.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Phogleur",
+        "Niveau": 52,
+        "Type1": "Glace",
+        "Type2": "Eau",
+        "Faiblesse": ["Électrik", "Plante", "Combat", "Roche"],
+        "Resistance": ["Eau", "Glace"],
+        "Photo": "http://localhost/assets/pokemon/gen3/glacia/phogleur.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Oniglali",
+        "Niveau": 52,
+        "Type1": "Glace",
+        "Type2": null,
+        "Faiblesse": ["Feu", "Combat", "Roche", "Acier"],
+        "Resistance": ["Glace"],
+        "Photo": "http://localhost/assets/pokemon/gen3/glacia/oniglali.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Kaimorse",
+        "Niveau": 53,
+        "Type1": "Glace",
+        "Type2": "Eau",
+        "Faiblesse": ["Électrik", "Plante", "Combat", "Roche"],
+        "Resistance": ["Eau", "Glace"],
+        "Photo": "http://localhost/assets/pokemon/gen3/glacia/kaimorse.png"
+      }
+    ]
+  },
+  {
+    "Id": 14,
+    "Gen": 3,
+    "Nom": "Conseil 4 Aragon",
+    "Type": "Dragon",
+    "Avatar": "http://localhost/assets/dresseur/gen3/aragon.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Drackhaus",
+        "Niveau": 52,
+        "Type1": "Dragon",
+        "Type2": null,
+        "Faiblesse": ["Glace", "Dragon", "Fée"],
+        "Resistance": ["Feu", "Eau", "Électrik", "Plante"],
+        "Photo": "http://localhost/assets/pokemon/gen3/aragon/drackhaus.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Altaria",
+        "Niveau": 54,
+        "Type1": "Dragon",
+        "Type2": "Vol",
+        "Faiblesse": ["Glace (faiblesse x4)", "Roche", "Dragon", "Fée"],
+        "Resistance": [
+          "Combat",
+          "Insecte",
+          "Feu",
+          "Eau",
+          "Plante",
+          "Électrik",
+          "Sol (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen3/aragon/altaria.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Libégon",
+        "Niveau": 53,
+        "Type1": "Sol",
+        "Type2": "Dragon",
+        "Faiblesse": ["Glace (faiblesse x4)", "Dragon", "Fée"],
+        "Resistance": [
+          "Feu",
+          "Poison",
+          "Roche",
+          "Sol (immunité)",
+          "Électrik (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen3/aragon/libegon.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Libégon",
+        "Niveau": 53,
+        "Type1": "Sol",
+        "Type2": "Dragon",
+        "Faiblesse": ["Glace (faiblesse x4)", "Dragon", "Fée"],
+        "Resistance": [
+          "Feu",
+          "Poison",
+          "Roche",
+          "Sol (immunité)",
+          "Électrik (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen3/aragon/libegon.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Drattak",
+        "Niveau": 55,
+        "Type1": "Dragon",
+        "Type2": "Vol",
+        "Faiblesse": ["Glace (faiblesse x4)", "Roche", "Dragon", "Fée"],
+        "Resistance": [
+          "Combat",
+          "Insecte",
+          "Feu",
+          "Eau",
+          "Plante",
+          "Électrik",
+          "Sol (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen3/aragon/drattak.png"
+      }
+    ]
+  },
+  {
+    "Id": 15,
+    "Gen": 3,
+    "Nom": "Maître Pierre",
+    "Type": "Acier / Roche",
+    "Avatar": "http://localhost/assets/dresseur/gen3/pierre.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Airmure",
+        "Niveau": 57,
+        "Type1": "Acier",
+        "Type2": "Vol",
+        "Faiblesse": ["Électrik", "Feu"],
+        "Resistance": [
+          "Normal",
+          "Vol",
+          "Roche",
+          "Insecte",
+          "Plante",
+          "Psy",
+          "Dragon",
+          "Acier",
+          "Fée",
+          "Poison (immunité)",
+          "Sol (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen3/pierre/airmure.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Kaorine",
+        "Niveau": 55,
+        "Type1": "Sol",
+        "Type2": "Psy",
+        "Faiblesse": [
+          "Eau",
+          "Plante",
+          "Glace",
+          "Insecte",
+          "Spectre",
+          "Ténèbres"
+        ],
+        "Resistance": [
+          "Combat",
+          "Poison",
+          "Roche",
+          "Psy",
+          "Électrik (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen3/pierre/kaorine.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Galeking",
+        "Niveau": 56,
+        "Type1": "Acier",
+        "Type2": "Roche",
+        "Faiblesse": ["Combat (faiblesse x4)", "Sol (faiblesse x4)", "Eau"],
+        "Resistance": [
+          "Normal",
+          "Vol",
+          "Roche",
+          "Insecte",
+          "Psy",
+          "Glace",
+          "Dragon",
+          "Fée",
+          "Poison (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen3/pierre/galeking.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Vacilys",
+        "Niveau": 56,
+        "Type1": "Roche",
+        "Type2": "Plante",
+        "Faiblesse": ["Combat", "Sol", "Insecte", "Acier"],
+        "Resistance": ["Normal", "Électrik", "Vol"],
+        "Photo": "http://localhost/assets/pokemon/gen3/pierre/vacilys.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Métalosse",
+        "Niveau": 58,
+        "Type1": "Acier",
+        "Type2": "Psy",
+        "Faiblesse": ["Sol", "Spectre", "Feu", "Ténèbres"],
+        "Resistance": [
+          "Normal",
+          "Vol",
+          "Roche",
+          "Insecte",
+          "Acier",
+          "Plante",
+          "Psy",
+          "Glace",
+          "Dragon",
+          "Fée",
+          "Poison (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen3/pierre/metalosse.png"
+      }
+    ]
+  },
+  {
+    "Id": 16,
+    "Gen": 4,
+    "Nom": "Conseil 4 Aaron",
+    "Type": "Insecte",
+    "Avatar": "http://localhost/assets/dresseur/gen4/aaron.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Papinox",
+        "Niveau": 53,
+        "Type1": "Insecte",
+        "Type2": "Vol",
+        "Faiblesse": ["Vol", "Roche", "Feu", "Électrik", "Glace"],
+        "Resistance": [
+          "Combat",
+          "Insecte",
+          "Plante (résistance x2)",
+          "Sol (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen4/aaron/papinox.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Charmillon",
+        "Niveau": 53,
+        "Type1": "Insecte",
+        "Type2": "Vol",
+        "Faiblesse": ["Vol", "Roche", "Feu", "Électrik", "Glace"],
+        "Resistance": [
+          "Combat",
+          "Insecte",
+          "Plante (résistance x2)",
+          "Sol (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen4/aaron/charmillon.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Apireine",
+        "Niveau": 54,
+        "Type1": "Insecte",
+        "Type2": "Vol",
+        "Faiblesse": ["Vol", "Roche", "Feu", "Électrik", "Glace"],
+        "Resistance": [
+          "Combat",
+          "Insecte",
+          "Plante (résistance x2)",
+          "Sol (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen4/aaron/apireine.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Scarhino",
+        "Niveau": 54,
+        "Type1": "Insecte",
+        "Type2": "Combat",
+        "Faiblesse": ["Vol (faiblesse x4)", "Psy", "Feu", "Fée"],
+        "Resistance": ["Combat", "Sol", "Plante", "Insecte", "Ténèbres"],
+        "Photo": "http://localhost/assets/pokemon/gen4/aaron/scarhino.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Drascore",
+        "Niveau": 57,
+        "Type1": "Poison",
+        "Type2": "Ténèbres",
+        "Faiblesse": ["Sol"],
+        "Resistance": [
+          "Poison",
+          "Spectre",
+          "Plante",
+          "Ténèbres",
+          "Psy (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen4/aaron/drascore.png"
+      }
+    ]
+  },
+  {
+    "Id": 17,
+    "Gen": 4,
+    "Nom": "Conseil 4 Terry",
+    "Type": "Sol",
+    "Avatar": "http://localhost/assets/dresseur/gen4/terry.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Maraiste",
+        "Niveau": 55,
+        "Type1": "Eau",
+        "Type2": "Sol",
+        "Faiblesse": ["Plante (faiblesse x4)"],
+        "Resistance": [
+          "Feu",
+          "Poison",
+          "Roche",
+          "Acier",
+          "Sol (immunité)",
+          "Électrik (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen4/terry/maraiste.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Simularbre",
+        "Niveau": 56,
+        "Type1": "Roche",
+        "Type2": null,
+        "Faiblesse": ["Combat", "Sol", "Acier", "Eau", "Plante"],
+        "Resistance": ["Normal", "Vol", "Feu"],
+        "Photo": "http://localhost/assets/pokemon/gen4/terry/simularbre.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Grolem",
+        "Niveau": 56,
+        "Type1": "Roche",
+        "Type2": "Sol",
+        "Faiblesse": [
+          "Eau (faiblesse x4)",
+          "Plante (faiblesse x4)",
+          "Combat",
+          "Sol",
+          "Acier",
+          "Glace"
+        ],
+        "Resistance": ["Normal", "Vol", "Feu", "Poison", "Roche"],
+        "Photo": "http://localhost/assets/pokemon/gen4/terry/grolem.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Barbicha",
+        "Niveau": 55,
+        "Type1": "Eau",
+        "Type2": "Sol",
+        "Faiblesse": ["Plante (faiblesse x4)"],
+        "Resistance": [
+          "Feu",
+          "Poison",
+          "Roche",
+          "Acier",
+          "Sol (immunité)",
+          "Électrik (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen4/terry/barbicha.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Hippodocus",
+        "Niveau": 59,
+        "Type1": "Sol",
+        "Type2": null,
+        "Faiblesse": ["Eau", "Plante", "Glace"],
+        "Resistance": ["Poison", "Roche", "Électrik (immunité)"],
+        "Photo": "http://localhost/assets/pokemon/gen4/terry/hippodocus.png"
+      }
+    ]
+  },
+  {
+    "Id": 18,
+    "Gen": 4,
+    "Nom": "Conseil 4 Adrien",
+    "Type": "Feu",
+    "Avatar": "http://localhost/assets/dresseur/gen4/adrien.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Galopa",
+        "Niveau": 58,
+        "Type1": "Feu",
+        "Type2": null,
+        "Faiblesse": ["Eau", "Sol", "Roche"],
+        "Resistance": ["Combat", "Insecte", "Acier", "Feu", "Plante", "Glace"],
+        "Photo": "http://localhost/assets/pokemon/gen4/adrien/galopa.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Steelix",
+        "Niveau": 57,
+        "Type1": "Acier",
+        "Type2": "Sol",
+        "Faiblesse": [
+          "Combat (faiblesse x4)",
+          "Sol (faiblesse x4)",
+          "Eau",
+          "Feu"
+        ],
+        "Resistance": [
+          "Normal",
+          "Vol",
+          "Roche",
+          "Insecte",
+          "Plante",
+          "Psy",
+          "Dragon",
+          "Acier",
+          "Fée",
+          "Poison (immunité)",
+          "Électrik (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen4/adrien/steelix.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Grodrive",
+        "Niveau": 58,
+        "Type1": "Spectre",
+        "Type2": "Vol",
+        "Faiblesse": ["Roche", "Électrik", "Glace", "Spectre", "Ténèbres"],
+        "Resistance": [
+          "Poison",
+          "Insecte",
+          "Plante",
+          "Normal (immunité)",
+          "Combat (immunité)",
+          "Sol (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen4/adrien/grodrive.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Lockpin",
+        "Niveau": 57,
+        "Type1": "Normal",
+        "Type2": null,
+        "Faiblesse": ["Combat"],
+        "Resistance": ["Spectre (immunité)"],
+        "Photo": "http://localhost/assets/pokemon/gen4/adrien/lockpin.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Simiabraz",
+        "Niveau": 61,
+        "Type1": "Feu",
+        "Type2": "Combat",
+        "Faiblesse": ["Vol", "Sol", "Eau", "Psy"],
+        "Resistance": [
+          "Insecte (résistance x2)",
+          "Acier",
+          "Feu",
+          "Plante",
+          "Glace",
+          "Ténèbres"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen4/adrien/simiabraz.png"
+      }
+    ]
+  },
+  {
+    "Id": 19,
+    "Gen": 4,
+    "Nom": "Conseil 4 Lucio",
+    "Type": "Psy",
+    "Avatar": "http://localhost/assets/dresseur/gen4/lucio.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "M. Mime",
+        "Niveau": 59,
+        "Type1": "Psy",
+        "Type2": null,
+        "Faiblesse": ["Insecte", "Spectre", "Ténèbres"],
+        "Resistance": ["Combat", "Psy"],
+        "Photo": "http://localhost/assets/pokemon/gen4/lucio/mmime.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Girafarig",
+        "Niveau": 59,
+        "Type1": "Normal",
+        "Type2": "Psy",
+        "Faiblesse": ["Insecte", "Ténèbres"],
+        "Resistance": [
+          "Combat",
+          "Psy",
+          "Normal (immunité)",
+          "Spectre (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen4/lucio/girafarig.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Charmina",
+        "Niveau": 60,
+        "Type1": "Combat",
+        "Type2": "Psy",
+        "Faiblesse": ["Vol", "Spectre", "Fée"],
+        "Resistance": ["Combat", "Roche", "Psy"],
+        "Photo": "http://localhost/assets/pokemon/gen4/lucio/charmina.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Alakazam",
+        "Niveau": 60,
+        "Type1": "Psy",
+        "Type2": null,
+        "Faiblesse": ["Insecte", "Spectre", "Ténèbres"],
+        "Resistance": ["Combat", "Psy"],
+        "Photo": "http://localhost/assets/pokemon/gen4/lucio/alakazam.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Archéodong",
+        "Niveau": 63,
+        "Type1": "Sol",
+        "Type2": "Psy",
+        "Faiblesse": [
+          "Eau",
+          "Plante",
+          "Glace",
+          "Insecte",
+          "Spectre",
+          "Ténèbres"
+        ],
+        "Resistance": [
+          "Combat",
+          "Poison",
+          "Roche",
+          "Psy",
+          "Électrik (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen4/lucio/archeodong.png"
+      }
+    ]
+  },
+  {
+    "Id": 20,
+    "Gen": 4,
+    "Nom": "Maître Cynthia",
+    "Type": "Varié",
+    "Avatar": "http://localhost/assets/dresseur/gen4/cynthia.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Spiritomb",
+        "Niveau": 61,
+        "Type1": "Spectre",
+        "Type2": "Ténèbres",
+        "Faiblesse": ["Fée"],
+        "Resistance": [
+          "Poison",
+          "Insecte",
+          "Normal (immunité)",
+          "Combat (immunité)",
+          "Psy (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen4/cynthia/spiritomb.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Roserade",
+        "Niveau": 60,
+        "Type1": "Plante",
+        "Type2": "Poison",
+        "Faiblesse": ["Vol", "Feu", "Glace", "Psy"],
+        "Resistance": [
+          "Combat",
+          "Poison",
+          "Insecte",
+          "Plante (résistance x2)",
+          "Fée"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen4/cynthia/roserade.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Tritosor",
+        "Niveau": 60,
+        "Type1": "Eau",
+        "Type2": "Sol",
+        "Faiblesse": ["Plante (faiblesse x4)"],
+        "Resistance": [
+          "Feu",
+          "Poison",
+          "Roche",
+          "Acier",
+          "Sol (immunité)",
+          "Électrik (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen4/cynthia/tritosor.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Lucario",
+        "Niveau": 63,
+        "Type1": "Combat",
+        "Type2": "Acier",
+        "Faiblesse": ["Combat", "Sol", "Feu"],
+        "Resistance": [
+          "Normal",
+          "Vol",
+          "Roche",
+          "Insecte",
+          "Acier",
+          "Plante",
+          "Glace",
+          "Dragon",
+          "Ténèbres (résistance x2)",
+          "Poison (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen4/cynthia/lucario.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Carchacrok",
+        "Niveau": 66,
+        "Type1": "Dragon",
+        "Type2": "Sol",
+        "Faiblesse": ["Glace (faiblesse x4)", "Dragon", "Fée"],
+        "Resistance": [
+          "Feu",
+          "Poison",
+          "Roche",
+          "Sol (immunité)",
+          "Électrik (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen4/cynthia/carchacrok.png"
+      }
+    ]
+  },
+  {
+    "Id": 21,
+    "Gen": 5,
+    "Nom": "Conseil 4 Anis",
+    "Type": "Spectre",
+    "Avatar": "http://localhost/assets/dresseur/gen5/anis.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Tutankafer",
+        "Niveau": 71,
+        "Type1": "Spectre",
+        "Type2": null,
+        "Faiblesse": ["Spectre", "Ténèbres"],
+        "Resistance": [
+          "Poison",
+          "Insecte",
+          "Normal (immunité)",
+          "Combat (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen5/anis/tutankafer.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Moyade",
+        "Niveau": 71,
+        "Type1": "Eau",
+        "Type2": "Spectre",
+        "Faiblesse": ["Électrik", "Plante", "Spectre", "Ténèbres"],
+        "Resistance": [
+          "Combat",
+          "Poison",
+          "Insecte",
+          "Acier",
+          "Feu",
+          "Eau",
+          "Glace",
+          "Normal (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen5/anis/moyade.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Momartik",
+        "Niveau": 71,
+        "Type1": "Glace",
+        "Type2": "Spectre",
+        "Faiblesse": ["Feu", "Roche", "Spectre", "Ténèbres"],
+        "Resistance": [
+          "Poison",
+          "Insecte",
+          "Glace",
+          "Normal (immunité)",
+          "Combat (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen5/anis/momartik.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Grodrive",
+        "Niveau": 71,
+        "Type1": "Spectre",
+        "Type2": "Vol",
+        "Faiblesse": ["Roche", "Électrik", "Glace", "Spectre", "Ténèbres"],
+        "Resistance": [
+          "Poison",
+          "Insecte",
+          "Plante",
+          "Normal (immunité)",
+          "Combat (immunité)",
+          "Sol (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen5/anis/grodrive.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Golemastoc",
+        "Niveau": 71,
+        "Type1": "Sol",
+        "Type2": "Spectre",
+        "Faiblesse": ["Eau", "Plante", "Glace", "Spectre", "Ténèbres"],
+        "Resistance": [
+          "Combat",
+          "Poison",
+          "Roche",
+          "Insecte",
+          "Électrik (immunité)",
+          "Normal (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen5/anis/golemastoc.png"
+      },
+      {
+        "Id": 6,
+        "Nom": "Lugulabre",
+        "Niveau": 73,
+        "Type1": "Spectre",
+        "Type2": "Feu",
+        "Faiblesse": ["Sol", "Roche", "Eau", "Spectre", "Ténèbres"],
+        "Resistance": [
+          "Combat",
+          "Poison",
+          "Insecte",
+          "Acier",
+          "Feu",
+          "Plante",
+          "Glace",
+          "Fée",
+          "Normal (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen5/anis/lugulabre.png"
+      }
+    ]
+  },
+  {
+    "Id": 22,
+    "Gen": 5,
+    "Nom": "Conseil 4 Pieris",
+    "Type": "Ténèbres",
+    "Avatar": "http://localhost/assets/dresseur/gen5/pieris.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Sharpedo",
+        "Niveau": 71,
+        "Type1": "Eau",
+        "Type2": "Ténèbres",
+        "Faiblesse": ["Électrik", "Plante", "Combat", "Insecte", "Fée"],
+        "Resistance": ["Spectre", "Feu", "Eau", "Glace", "Acier"],
+        "Photo": "http://localhost/assets/pokemon/gen5/pieris/sharpedo.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Léopardus",
+        "Niveau": 71,
+        "Type1": "Ténèbres",
+        "Type2": null,
+        "Faiblesse": ["Combat", "Insecte", "Fée"],
+        "Resistance": ["Spectre", "Ténèbres (résistance x2)", "Psy (immunité)"],
+        "Photo": "http://localhost/assets/pokemon/gen5/pieris/leopardus.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Baggaïd",
+        "Niveau": 71,
+        "Type1": "Ténèbres",
+        "Type2": "Combat",
+        "Faiblesse": ["Combat", "Vol", "Psy (faiblesse x4)", "Fée"],
+        "Resistance": [
+          "Roche",
+          "Spectre",
+          "Ténèbres (résistance x2)",
+          "Psy (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen5/pieris/baggaid.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Drascore",
+        "Niveau": 71,
+        "Type1": "Poison",
+        "Type2": "Ténèbres",
+        "Faiblesse": ["Sol"],
+        "Resistance": [
+          "Poison",
+          "Spectre",
+          "Plante",
+          "Ténèbres",
+          "Psy (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen5/pieris/drascore.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Crocorible",
+        "Niveau": 71,
+        "Type1": "Sol",
+        "Type2": "Ténèbres",
+        "Faiblesse": ["Combat", "Insecte", "Eau", "Plante", "Glace", "Fée"],
+        "Resistance": [
+          "Poison",
+          "Roche",
+          "Spectre",
+          "Ténèbres",
+          "Psy (immunité)",
+          "Électrik (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen5/pieris/crocorible.png"
+      },
+      {
+        "Id": 6,
+        "Nom": "Scalproie",
+        "Niveau": 73,
+        "Type1": "Ténèbres",
+        "Type2": "Acier",
+        "Faiblesse": ["Combat (faiblesse x4)", "Sol", "Feu"],
+        "Resistance": [
+          "Normal",
+          "Vol",
+          "Roche",
+          "Insecte",
+          "Spectre",
+          "Plante",
+          "Glace",
+          "Dragon",
+          "Ténèbres (résistance x2)",
+          "Psy (immunité)",
+          "Poison (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen5/pieris/scalproie.png"
+      }
+    ]
+  },
+  {
+    "Id": 23,
+    "Gen": 5,
+    "Nom": "Conseil 4 Percila",
+    "Type": "Psy",
+    "Avatar": "http://localhost/assets/dresseur/gen5/percila.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Mushana",
+        "Niveau": 71,
+        "Type1": "Psy",
+        "Type2": null,
+        "Faiblesse": ["Insecte", "Spectre", "Ténèbres"],
+        "Resistance": ["Combat", "Psy"],
+        "Photo": "http://localhost/assets/pokemon/gen5/percila/mushana.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Cryptéro",
+        "Niveau": 71,
+        "Type1": "Psy",
+        "Type2": "Vol",
+        "Faiblesse": ["Roche", "Électrik", "Glace", "Spectre", "Ténèbres"],
+        "Resistance": ["Combat", "Psy (résistance x2)", "Plante"],
+        "Photo": "http://localhost/assets/pokemon/gen5/percila/cryptero.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Archéodong",
+        "Niveau": 71,
+        "Type1": "Acier",
+        "Type2": "Psy",
+        "Faiblesse": ["Sol", "Spectre", "Feu", "Ténèbres"],
+        "Resistance": [
+          "Normal",
+          "Vol",
+          "Roche",
+          "Insecte",
+          "Acier",
+          "Plante",
+          "Psy",
+          "Glace",
+          "Dragon",
+          "Fée",
+          "Poison (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen5/percila/archeodong.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Symbios",
+        "Niveau": 71,
+        "Type1": "Psy",
+        "Type2": null,
+        "Faiblesse": ["Insecte", "Spectre", "Ténèbres"],
+        "Resistance": ["Combat", "Psy"],
+        "Photo": "http://localhost/assets/pokemon/gen5/percila/symbios.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Sidérella",
+        "Niveau": 71,
+        "Type1": "Psy",
+        "Type2": null,
+        "Faiblesse": ["Insecte", "Spectre", "Ténèbres"],
+        "Resistance": ["Combat", "Psy"],
+        "Photo": "http://localhost/assets/pokemon/gen5/percila/siderella.png"
+      },
+      {
+        "Id": 6,
+        "Nom": "Métalosse",
+        "Niveau": 73,
+        "Type1": "Acier",
+        "Type2": "Psy",
+        "Faiblesse": ["Sol", "Spectre", "Feu", "Ténèbres"],
+        "Resistance": [
+          "Normal",
+          "Vol",
+          "Roche",
+          "Insecte",
+          "Acier",
+          "Plante",
+          "Psy",
+          "Glace",
+          "Dragon",
+          "Fée",
+          "Poison (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen5/percila/metalosse.png"
+      }
+    ]
+  },
+  {
+    "Id": 24,
+    "Gen": 5,
+    "Nom": "Conseil 4 Kunz",
+    "Type": "Combat",
+    "Avatar": "http://localhost/assets/dresseur/gen5/kunz.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Chapignon",
+        "Niveau": 71,
+        "Type1": "Plante",
+        "Type2": "Combat",
+        "Faiblesse": [
+          "Vol (faiblesse x4)",
+          "Feu",
+          "Glace",
+          "Psy",
+          "Poison",
+          "Fée"
+        ],
+        "Resistance": ["Eau", "Électrik", "Plante", "Sol", "Roche", "Ténèbres"],
+        "Photo": "http://localhost/assets/pokemon/gen5/kunz/chapignon.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Karaclée",
+        "Niveau": 71,
+        "Type1": "Combat",
+        "Type2": null,
+        "Faiblesse": ["Vol", "Psy", "Fée"],
+        "Resistance": ["Roche", "Insecte", "Ténèbres"],
+        "Photo": "http://localhost/assets/pokemon/gen5/kunz/karaclee.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Judokrak",
+        "Niveau": 71,
+        "Type1": "Combat",
+        "Type2": null,
+        "Faiblesse": ["Vol", "Psy", "Fée"],
+        "Resistance": ["Roche", "Insecte", "Ténèbres"],
+        "Photo": "http://localhost/assets/pokemon/gen5/kunz/judokrak.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Coatox",
+        "Niveau": 71,
+        "Type1": "Poison",
+        "Type2": "Combat",
+        "Faiblesse": ["Vol", "Sol", "Psy (faiblesse x4)"],
+        "Resistance": [
+          "Combat",
+          "Poison",
+          "Roche",
+          "Insecte",
+          "Plante",
+          "Ténèbres"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen5/kunz/coatox.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Shaofouine",
+        "Niveau": 71,
+        "Type1": "Combat",
+        "Type2": null,
+        "Faiblesse": ["Vol", "Psy", "Fée"],
+        "Resistance": ["Roche", "Insecte", "Ténèbres"],
+        "Photo": "http://localhost/assets/pokemon/gen5/kunz/shaofouine.png"
+      },
+      {
+        "Id": 6,
+        "Nom": "Bétochef",
+        "Niveau": 73,
+        "Type1": "Combat",
+        "Type2": null,
+        "Faiblesse": ["Vol", "Psy", "Fée"],
+        "Resistance": ["Roche", "Insecte", "Ténèbres"],
+        "Photo": "http://localhost/assets/pokemon/gen5/kunz/betochef.png"
+      }
+    ]
+  },
+  {
+    "Id": 25,
+    "Gen": 5,
+    "Nom": "Maître Goyah",
+    "Type": "Varié",
+    "Avatar": "http://localhost/assets/dresseur/gen5/goyah.png",
+    "Pokemon": [
+      {
+        "Id": 1,
+        "Nom": "Limaspeed",
+        "Niveau": 75,
+        "Type1": "Insecte",
+        "Type2": null,
+        "Faiblesse": ["Vol", "Roche", "Feu"],
+        "Resistance": ["Combat", "Sol", "Plante"],
+        "Photo": "http://localhost/assets/pokemon/gen5/goyah/limaspeed.png"
+      },
+      {
+        "Id": 2,
+        "Nom": "Frison",
+        "Niveau": 75,
+        "Type1": "Normal",
+        "Type2": null,
+        "Faiblesse": ["Combat"],
+        "Resistance": ["Spectre (immunité)"],
+        "Photo": "http://localhost/assets/pokemon/gen5/goyah/frison.png"
+      },
+      {
+        "Id": 3,
+        "Nom": "Drakkarmin",
+        "Niveau": 75,
+        "Type1": "Dragon",
+        "Type2": null,
+        "Faiblesse": ["Glace", "Dragon", "Fée"],
+        "Resistance": ["Feu", "Eau", "Électrik", "Plante"],
+        "Photo": "http://localhost/assets/pokemon/gen5/goyah/drakkarmin.png"
+      },
+      {
+        "Id": 4,
+        "Nom": "Sorbouboul",
+        "Niveau": 75,
+        "Type1": "Glace",
+        "Type2": null,
+        "Faiblesse": ["Feu", "Combat", "Roche", "Acier"],
+        "Resistance": ["Glace"],
+        "Photo": "http://localhost/assets/pokemon/gen5/goyah/sorbouboul.png"
+      },
+      {
+        "Id": 5,
+        "Nom": "Lançargot",
+        "Niveau": 75,
+        "Type1": "Insecte",
+        "Type2": "Acier",
+        "Faiblesse": ["Feu (faiblesse x4)"],
+        "Resistance": [
+          "Normal",
+          "Vol",
+          "Roche",
+          "Insecte",
+          "Plante",
+          "Psy",
+          "Dragon",
+          "Acier",
+          "Fée",
+          "Poison (immunité)"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen5/goyah/lancargot.png"
+      },
+      {
+        "Id": 6,
+        "Nom": "Pyrax",
+        "Niveau": 77,
+        "Type1": "Insecte",
+        "Type2": "Feu",
+        "Faiblesse": ["Vol", "Roche (faiblesse x4)", "Eau"],
+        "Resistance": [
+          "Combat",
+          "Insecte",
+          "Acier",
+          "Feu (résistance x2)",
+          "Plante (résistance x2)",
+          "Glace",
+          "Fée"
+        ],
+        "Photo": "http://localhost/assets/pokemon/gen5/goyah/pyrax.png"
+      }
+    ]
+  }
+]

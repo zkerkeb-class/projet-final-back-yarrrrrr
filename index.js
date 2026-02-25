@@ -10,6 +10,7 @@ import connectDB from "./connect.js";
 import authRoutes from "./routes/auth.js";
 import userRoutes from "./routes/user.js";
 import User from "./schema/user.js";
+import Dresseur from "./schema/dresseurs.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -39,6 +40,26 @@ const importUsersFromJSON = async () => {
   }
 };
 
+// Fonction pour importer les dresseurs depuis le JSON
+const importDresseursFromJSON = async () => {
+  try {
+    const dresseurCount = await Dresseur.countDocuments();
+    if (dresseurCount === 0) {
+      const filePath = path.join(__dirname, "data", "dresseur.json");
+      const dresseursData = JSON.parse(fs.readFileSync(filePath, "utf8"));
+
+      if (dresseursData && dresseursData.length > 0) {
+        await Dresseur.insertMany(dresseursData);
+        console.log(
+          `✅ ${dresseursData.length} dresseur(s) importé(s) depuis dresseur.json`,
+        );
+      }
+    }
+  } catch (error) {
+    console.error("❌ Erreur lors de l'import des dresseurs:", error.message);
+  }
+};
+
 // Fonction pour initialiser le serveur
 const startServer = async () => {
   // Connexion à MongoDB
@@ -46,6 +67,8 @@ const startServer = async () => {
 
   // Importer les utilisateurs depuis le JSON
   await importUsersFromJSON();
+  // Importer les dresseurs depuis le JSON
+  await importDresseursFromJSON();
 
   const app = express();
 
