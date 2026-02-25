@@ -9,6 +9,7 @@ import { fileURLToPath } from "url";
 import connectDB from "./connect.js";
 import authRoutes from "./routes/auth.js";
 import userRoutes from "./routes/user.js";
+import dresseurRoutes from "./routes/dresseur.js";
 import User from "./schema/user.js";
 import Dresseur from "./schema/dresseurs.js";
 
@@ -101,6 +102,7 @@ const startServer = async () => {
   // Routes
   app.use("/api/auth", authRoutes);
   app.use("/api/users", userRoutes);
+  app.use("/api/dresseurs", dresseurRoutes);
 
   const PORT = process.env.PORT || 3001;
   app.listen(PORT, () =>
