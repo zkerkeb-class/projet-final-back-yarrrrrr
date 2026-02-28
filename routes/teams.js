@@ -59,6 +59,23 @@ router.get("/:userId", async (req, res) => {
   }
 });
 
+// endpoint nouveau: récupérer équipe par génération
+router.get("/:userId/:generationId", async (req, res) => {
+  try {
+    const { userId, generationId } = req.params;
+    const team = await Team.findOne({
+      userId: parseInt(userId),
+      generationId: parseInt(generationId),
+    });
+    if (!team) {
+      return res.status(404).json({ message: "Équipe non trouvée" });
+    }
+    res.status(200).json(team);
+  } catch (error) {
+    res.status(500).json({ message: "Erreur serveur", error: error.message });
+  }
+});
+
 /**
  * @swagger
  * /api/teams:
