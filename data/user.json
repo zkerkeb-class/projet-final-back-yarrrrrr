@@ -1,0 +1,11 @@
+[
+  {"id": 1,
+    "username": "admin",
+    "password": "$2b$10$.QmSgJStjXu9Cv8tw8W0eeHUsR.1qkpxUe0DF66ajvjNVxIOmH9UC",
+    "genre": "autre",
+    "niveau": 6,
+    "photoProfil": [
+      "http://localhost:3001/assets/avatar/1.png"
+    ]
+  }
+]
