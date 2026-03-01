@@ -1,8 +1,12 @@
 import express from "express";
 import bcrypt from "bcryptjs";
+import jwt from "jsonwebtoken";
 import User from "../schema/user.js";
 
 const router = express.Router();
+
+const JWT_SECRET = process.env.JWT_SECRET || "dev-secret-change-me";
+const TOKEN_EXPIRATION = "2h";
 
 /**
  * @swagger
@@ -75,11 +79,21 @@ router.post("/login", async (req, res) => {
       return res.status(401).json({ message: "Password incorrect" });
     }
 
+    const token = jwt.sign(
+      {
+        userId: user.id,
+        username: user.username,
+      },
+      JWT_SECRET,
+      { expiresIn: TOKEN_EXPIRATION },
+    );
+
     // Connexion réussie
     res.status(200).json({
       message: "Connexion réussie",
+      token,
       user: {
-        id: user._id,
+        id: user.id,
         username: user.username,
         genre: user.genre,
         niveau: user.niveau,
@@ -88,6 +102,26 @@ router.post("/login", async (req, res) => {
     });
   } catch (error) {
     res.status(500).json({ message: "Erreur serveur", error: error.message });
+  }
+});
+
+router.get("/verify", (req, res) => {
+  try {
+    const authHeader = req.headers.authorization;
+    if (!authHeader || !authHeader.startsWith("Bearer ")) {
+      return res
+        .status(401)
+        .json({ valid: false, message: "Token manquant ou invalide" });
+    }
+
+    const token = authHeader.split(" ")[1];
+    const decoded = jwt.verify(token, JWT_SECRET);
+
+    return res.status(200).json({ valid: true, decoded });
+  } catch (error) {
+    return res
+      .status(401)
+      .json({ valid: false, message: "Token expiré ou invalide" });
   }
 });
 

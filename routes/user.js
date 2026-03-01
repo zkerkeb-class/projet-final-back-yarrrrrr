@@ -1,8 +1,12 @@
 import express from "express";
 import bcrypt from "bcryptjs";
+import jwt from "jsonwebtoken";
 import User from "../schema/user.js";
 
 const router = express.Router();
+
+const JWT_SECRET = process.env.JWT_SECRET || "dev-secret-change-me";
+const TOKEN_EXPIRATION = "2h";
 
 /**
  * @swagger
@@ -101,7 +105,7 @@ router.post("/register", async (req, res) => {
     const hashedPassword = await bcrypt.hash(password, 10);
 
     // Créer la photo URL
-    const photoUrl = `http://localhost:3000/assets/avatar/${photoIndex}`;
+    const photoUrl = `http://localhost:3001/assets/avatar/${photoIndex}.png`;
 
     // Créer le nouvel utilisateur
     const newUser = new User({
@@ -115,9 +119,26 @@ router.post("/register", async (req, res) => {
 
     await newUser.save();
 
+    const token = jwt.sign(
+      {
+        userId: newUser.id,
+        username: newUser.username,
+      },
+      JWT_SECRET,
+      { expiresIn: TOKEN_EXPIRATION },
+    );
+
     res.status(201).json({
       message: "Utilisateur créé avec succès",
       userId: newUser._id,
+      token,
+      user: {
+        id: newUser.id,
+        username: newUser.username,
+        genre: newUser.genre,
+        niveau: newUser.niveau,
+        photoProfil: newUser.photoProfil,
+      },
     });
   } catch (error) {
     res.status(500).json({ message: "Erreur serveur", error: error.message });
@@ -201,21 +222,38 @@ router.get("/:username", async (req, res) => {
 router.put("/:username", async (req, res) => {
   try {
     const { username } = req.params;
-    const updateData = req.body;
+    const { password, ...updateData } = req.body;
 
-    // Chercher et mettre à jour l'utilisateur
-    const user = await User.findOneAndUpdate({ username }, updateData, {
-      new: true,
-      runValidators: true,
-    });
-
+    // Chercher l'utilisateur actuel
+    const user = await User.findOne({ username });
     if (!user) {
       return res.status(404).json({ message: "Utilisateur non trouvé" });
     }
 
+    // Si un nouveau password est fourni
+    if (password && password.trim()) {
+      // Vérifier que le nouveau password n'est pas identique à l'ancien (via hash)
+      const sameAsOld = await bcrypt.compare(password, user.password);
+      if (sameAsOld) {
+        return res.status(400).json({
+          message: "Le nouveau password ne peut pas être identique à l'ancien",
+        });
+      }
+
+      // Hasher le nouveau password
+      const salt = await bcrypt.genSalt(10);
+      updateData.password = await bcrypt.hash(password, salt);
+    }
+
+    // Mettre à jour l'utilisateur
+    const updatedUser = await User.findOneAndUpdate({ username }, updateData, {
+      new: true,
+      runValidators: true,
+    });
+
     res.status(200).json({
       message: "Utilisateur mis à jour avec succès",
-      user,
+      user: updatedUser,
     });
   } catch (error) {
     res.status(500).json({ message: "Erreur serveur", error: error.message });
