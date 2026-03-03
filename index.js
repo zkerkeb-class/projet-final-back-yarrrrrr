@@ -86,7 +86,7 @@ const startServer = async () => {
     definition: {
       openapi: "3.0.0",
       info: {
-        title: "Projekt Yarrrrrr API",
+        title: "Project Yarrrrrr API",
         version: "1.0.0",
         description:
           "API pour la gestion des utilisateurs et l'authentification",

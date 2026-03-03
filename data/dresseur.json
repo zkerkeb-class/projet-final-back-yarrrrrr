@@ -4,10 +4,10 @@
     "Gen": 1,
     "Nom": "Olga",
     "Type": "Glace",
-    "Avatar": "http://localhost:3001/assets/dresseur/gen1/algo.png",
+    "Avatar": "http://localhost:3001/assets/dresseur/gen1/olga.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 87,
         "Nom": "Lamantine",
         "Niveau": 54,
         "Type1": "Eau",
@@ -17,7 +17,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/olga/lamantine.png"
       },
       {
-        "Id": 2,
+        "Id": 91,
         "Nom": "Crustabri",
         "Niveau": 53,
         "Type1": "Eau",
@@ -27,7 +27,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/olga/crustabri.png"
       },
       {
-        "Id": 3,
+        "Id": 80,
         "Nom": "Flagadoss",
         "Niveau": 54,
         "Type1": "Eau",
@@ -37,7 +37,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/olga/flagadoss.png"
       },
       {
-        "Id": 4,
+        "Id": 124,
         "Nom": "Lippoutou",
         "Niveau": 56,
         "Type1": "Glace",
@@ -47,7 +47,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/olga/lippoutou.png"
       },
       {
-        "Id": 5,
+        "Id": 131,
         "Nom": "Lokhlass",
         "Niveau": 56,
         "Type1": "Eau",
@@ -66,7 +66,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen1/aldo.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 95,
         "Nom": "Onix",
         "Niveau": 53,
         "Type1": "Roche",
@@ -76,7 +76,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/aldo/onix.png"
       },
       {
-        "Id": 2,
+        "Id": 107,
         "Nom": "Tygnon",
         "Niveau": 55,
         "Type1": "Combat",
@@ -86,7 +86,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/aldo/tygnon.png"
       },
       {
-        "Id": 3,
+        "Id": 106,
         "Nom": "Kicklee",
         "Niveau": 55,
         "Type1": "Combat",
@@ -96,7 +96,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/aldo/kicklee.png"
       },
       {
-        "Id": 4,
+        "Id": 95,
         "Nom": "Onix",
         "Niveau": 56,
         "Type1": "Roche",
@@ -106,7 +106,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/aldo/onix.png"
       },
       {
-        "Id": 5,
+        "Id": 68,
         "Nom": "Mackogneur",
         "Niveau": 58,
         "Type1": "Combat",
@@ -125,7 +125,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen1/agatha.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 94,
         "Nom": "Ectoplasma",
         "Niveau": 56,
         "Type1": "Spectre",
@@ -141,7 +141,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/agatha/ectoplasma.png"
       },
       {
-        "Id": 2,
+        "Id": 42,
         "Nom": "Nosferalto",
         "Niveau": 56,
         "Type1": "Poison",
@@ -157,7 +157,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/agatha/nosferalto.png"
       },
       {
-        "Id": 3,
+        "Id": 93,
         "Nom": "Spectrum",
         "Niveau": 55,
         "Type1": "Spectre",
@@ -173,7 +173,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/agatha/spectrum.png"
       },
       {
-        "Id": 4,
+        "Id": 24,
         "Nom": "Arbok",
         "Niveau": 58,
         "Type1": "Poison",
@@ -183,7 +183,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/agatha/arbok.png"
       },
       {
-        "Id": 5,
+        "Id": 94,
         "Nom": "Ectoplasma",
         "Niveau": 60,
         "Type1": "Spectre",
@@ -208,7 +208,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen1/peter.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 130,
         "Nom": "Léviator",
         "Niveau": 58,
         "Type1": "Eau",
@@ -218,7 +218,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/peter/leviator.png"
       },
       {
-        "Id": 2,
+        "Id": 148,
         "Nom": "Draco",
         "Niveau": 56,
         "Type1": "Dragon",
@@ -228,7 +228,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/peter/draco.png"
       },
       {
-        "Id": 3,
+        "Id": 148,
         "Nom": "Draco",
         "Niveau": 56,
         "Type1": "Dragon",
@@ -238,7 +238,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/peter/draco.png"
       },
       {
-        "Id": 4,
+        "Id": 142,
         "Nom": "Ptéra",
         "Niveau": 60,
         "Type1": "Roche",
@@ -248,7 +248,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/peter/ptera.png"
       },
       {
-        "Id": 5,
+        "Id": 149,
         "Nom": "Dracolosse",
         "Niveau": 62,
         "Type1": "Dragon",
@@ -275,7 +275,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen1/blue.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 28,
         "Nom": "Sablaireau",
         "Niveau": 61,
         "Type1": "Sol",
@@ -285,7 +285,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/blue/sablaireau.png"
       },
       {
-        "Id": 2,
+        "Id": 65,
         "Nom": "Alakazam",
         "Niveau": 59,
         "Type1": "Psy",
@@ -295,7 +295,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/blue/alakazam.png"
       },
       {
-        "Id": 3,
+        "Id": 103,
         "Nom": "Noadkoko",
         "Niveau": 61,
         "Type1": "Plante",
@@ -312,7 +312,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/blue/noadkoko.png"
       },
       {
-        "Id": 4,
+        "Id": 82,
         "Nom": "Magnéton",
         "Niveau": 63,
         "Type1": "Électrik",
@@ -322,7 +322,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen1/blue/magneton.png"
       },
       {
-        "Id": 5,
+        "Id": 136,
         "Nom": "Pyroli",
         "Niveau": 65,
         "Type1": "Feu",
@@ -341,7 +341,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen2/clement.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 178,
         "Nom": "Xatu",
         "Niveau": 40,
         "Type1": "Psy",
@@ -351,7 +351,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/clement/xatu.png"
       },
       {
-        "Id": 2,
+        "Id": 124,
         "Nom": "Lippoutou",
         "Niveau": 41,
         "Type1": "Glace",
@@ -361,7 +361,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/clement/lippoutou.png"
       },
       {
-        "Id": 3,
+        "Id": 103,
         "Nom": "Noadkoko",
         "Niveau": 41,
         "Type1": "Plante",
@@ -379,7 +379,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/clement/noadkoko.png"
       },
       {
-        "Id": 4,
+        "Id": 80,
         "Nom": "Flagadoss",
         "Niveau": 41,
         "Type1": "Eau",
@@ -389,7 +389,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/clement/flagadoss.png"
       },
       {
-        "Id": 5,
+        "Id": 178,
         "Nom": "Xatu",
         "Niveau": 42,
         "Type1": "Psy",
@@ -408,7 +408,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen2/koga.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 168,
         "Nom": "Migalos",
         "Niveau": 40,
         "Type1": "Insecte",
@@ -418,7 +418,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/koga/migalos.png"
       },
       {
-        "Id": 2,
+        "Id": 49,
         "Nom": "Aéromite",
         "Niveau": 41,
         "Type1": "Insecte",
@@ -428,7 +428,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/koga/aeromite.png"
       },
       {
-        "Id": 3,
+        "Id": 205,
         "Nom": "Foretress",
         "Niveau": 43,
         "Type1": "Insecte",
@@ -447,7 +447,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/koga/foretress.png"
       },
       {
-        "Id": 4,
+        "Id": 89,
         "Nom": "Grotadmorv",
         "Niveau": 42,
         "Type1": "Poison",
@@ -457,7 +457,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/koga/grotadmorv.png"
       },
       {
-        "Id": 5,
+        "Id": 169,
         "Nom": "Nostenfer",
         "Niveau": 44,
         "Type1": "Poison",
@@ -482,7 +482,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen2/aldo.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 237,
         "Nom": "Kapoera",
         "Niveau": 42,
         "Type1": "Combat",
@@ -492,7 +492,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/aldo/kapoera.png"
       },
       {
-        "Id": 2,
+        "Id": 106,
         "Nom": "Kicklee",
         "Niveau": 42,
         "Type1": "Combat",
@@ -502,7 +502,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/aldo/kicklee.png"
       },
       {
-        "Id": 3,
+        "Id": 107,
         "Nom": "Tygnon",
         "Niveau": 42,
         "Type1": "Combat",
@@ -512,7 +512,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/aldo/tygnon.png"
       },
       {
-        "Id": 4,
+        "Id": 95,
         "Nom": "Onix",
         "Niveau": 43,
         "Type1": "Roche",
@@ -522,7 +522,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/aldo/onix.png"
       },
       {
-        "Id": 5,
+        "Id": 68,
         "Nom": "Mackogneur",
         "Niveau": 46,
         "Type1": "Combat",
@@ -541,7 +541,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen2/marion.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 197,
         "Nom": "Noctali",
         "Niveau": 42,
         "Type1": "Ténèbres",
@@ -551,7 +551,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/marion/noctali.png"
       },
       {
-        "Id": 2,
+        "Id": 45,
         "Nom": "Rafflesia",
         "Niveau": 42,
         "Type1": "Plante",
@@ -561,7 +561,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/marion/rafflesia.png"
       },
       {
-        "Id": 3,
+        "Id": 94,
         "Nom": "Ectoplasma",
         "Niveau": 45,
         "Type1": "Spectre",
@@ -579,7 +579,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/marion/ectoplasma.png"
       },
       {
-        "Id": 4,
+        "Id": 198,
         "Nom": "Cornèbre",
         "Niveau": 44,
         "Type1": "Ténèbres",
@@ -595,7 +595,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/marion/cornebre.png"
       },
       {
-        "Id": 5,
+        "Id": 229,
         "Nom": "Démolosse",
         "Niveau": 47,
         "Type1": "Ténèbres",
@@ -622,7 +622,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen2/peter.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 130,
         "Nom": "Léviator",
         "Niveau": 44,
         "Type1": "Eau",
@@ -639,7 +639,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/peter/leviator.png"
       },
       {
-        "Id": 2,
+        "Id": 149,
         "Nom": "Dracolosse",
         "Niveau": 47,
         "Type1": "Dragon",
@@ -657,7 +657,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/peter/dracolosse.png"
       },
       {
-        "Id": 3,
+        "Id": 142,
         "Nom": "Ptéra",
         "Niveau": 46,
         "Type1": "Roche",
@@ -667,7 +667,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/peter/ptera.png"
       },
       {
-        "Id": 4,
+        "Id": 6,
         "Nom": "Dracaufeu",
         "Niveau": 46,
         "Type1": "Feu",
@@ -684,7 +684,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen2/peter/dracaufeu.png"
       },
       {
-        "Id": 5,
+        "Id": 149,
         "Nom": "Dracolosse",
         "Niveau": 50,
         "Type1": "Dragon",
@@ -711,7 +711,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen3/damien.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 262,
         "Nom": "Grahyèna",
         "Niveau": 46,
         "Type1": "Ténèbres",
@@ -721,7 +721,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/damien/grahyena.png"
       },
       {
-        "Id": 2,
+        "Id": 332,
         "Nom": "Cacturne",
         "Niveau": 46,
         "Type1": "Plante",
@@ -739,7 +739,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/damien/cacturne.png"
       },
       {
-        "Id": 3,
+        "Id": 275,
         "Nom": "Tengalice",
         "Niveau": 48,
         "Type1": "Plante",
@@ -757,7 +757,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/damien/tengalice.png"
       },
       {
-        "Id": 4,
+        "Id": 319,
         "Nom": "Sharpedo",
         "Niveau": 48,
         "Type1": "Eau",
@@ -767,7 +767,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/damien/sharpedo.png"
       },
       {
-        "Id": 5,
+        "Id": 359,
         "Nom": "Absol",
         "Niveau": 49,
         "Type1": "Ténèbres",
@@ -786,7 +786,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen3/spectra.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 356,
         "Nom": "Téraclope",
         "Niveau": 49,
         "Type1": "Spectre",
@@ -801,7 +801,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/spectra/teraclope.png"
       },
       {
-        "Id": 2,
+        "Id": 354,
         "Nom": "Branette",
         "Niveau": 49,
         "Type1": "Spectre",
@@ -816,7 +816,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/spectra/branette.png"
       },
       {
-        "Id": 3,
+        "Id": 354,
         "Nom": "Branette",
         "Niveau": 50,
         "Type1": "Spectre",
@@ -831,7 +831,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/spectra/branette.png"
       },
       {
-        "Id": 4,
+        "Id": 302,
         "Nom": "Ténéfix",
         "Niveau": 50,
         "Type1": "Ténèbres",
@@ -846,7 +846,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/spectra/tenefix.png"
       },
       {
-        "Id": 5,
+        "Id": 356,
         "Nom": "Téraclope",
         "Niveau": 51,
         "Type1": "Spectre",
@@ -870,7 +870,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen3/glacia.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 362,
         "Nom": "Oniglali",
         "Niveau": 50,
         "Type1": "Glace",
@@ -880,7 +880,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/glacia/oniglali.png"
       },
       {
-        "Id": 2,
+        "Id": 364,
         "Nom": "Phogleur",
         "Niveau": 50,
         "Type1": "Glace",
@@ -890,7 +890,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/glacia/phogleur.png"
       },
       {
-        "Id": 3,
+        "Id": 364,
         "Nom": "Phogleur",
         "Niveau": 52,
         "Type1": "Glace",
@@ -900,7 +900,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/glacia/phogleur.png"
       },
       {
-        "Id": 4,
+        "Id": 362,
         "Nom": "Oniglali",
         "Niveau": 52,
         "Type1": "Glace",
@@ -910,7 +910,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/glacia/oniglali.png"
       },
       {
-        "Id": 5,
+        "Id": 365,
         "Nom": "Kaimorse",
         "Niveau": 53,
         "Type1": "Glace",
@@ -929,7 +929,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen3/aragon.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 372,
         "Nom": "Drackhaus",
         "Niveau": 52,
         "Type1": "Dragon",
@@ -939,7 +939,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/aragon/drackhaus.png"
       },
       {
-        "Id": 2,
+        "Id": 334,
         "Nom": "Altaria",
         "Niveau": 54,
         "Type1": "Dragon",
@@ -957,7 +957,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/aragon/altaria.png"
       },
       {
-        "Id": 3,
+        "Id": 330,
         "Nom": "Libégon",
         "Niveau": 53,
         "Type1": "Sol",
@@ -973,9 +973,9 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/aragon/libegon.png"
       },
       {
-        "Id": 4,
+        "Id": 330,
         "Nom": "Libégon",
-        "Niveau": 53,
+        "Niveau": 54,
         "Type1": "Sol",
         "Type2": "Dragon",
         "Faiblesse": ["Glace (faiblesse x4)", "Dragon", "Fée"],
@@ -989,7 +989,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/aragon/libegon.png"
       },
       {
-        "Id": 5,
+        "Id": 373,
         "Nom": "Drattak",
         "Niveau": 55,
         "Type1": "Dragon",
@@ -1016,7 +1016,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen3/pierre.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 227,
         "Nom": "Airmure",
         "Niveau": 57,
         "Type1": "Acier",
@@ -1038,7 +1038,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/pierre/airmure.png"
       },
       {
-        "Id": 2,
+        "Id": 344,
         "Nom": "Kaorine",
         "Niveau": 55,
         "Type1": "Sol",
@@ -1061,7 +1061,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/pierre/kaorine.png"
       },
       {
-        "Id": 3,
+        "Id": 306,
         "Nom": "Galeking",
         "Niveau": 56,
         "Type1": "Acier",
@@ -1081,7 +1081,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/pierre/galeking.png"
       },
       {
-        "Id": 4,
+        "Id": 346,
         "Nom": "Vacilys",
         "Niveau": 56,
         "Type1": "Roche",
@@ -1091,7 +1091,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen3/pierre/vacilys.png"
       },
       {
-        "Id": 5,
+        "Id": 376,
         "Nom": "Métalosse",
         "Niveau": 58,
         "Type1": "Acier",
@@ -1122,7 +1122,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen4/aaron.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 269,
         "Nom": "Papinox",
         "Niveau": 53,
         "Type1": "Insecte",
@@ -1137,7 +1137,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/aaron/papinox.png"
       },
       {
-        "Id": 2,
+        "Id": 267,
         "Nom": "Charmillon",
         "Niveau": 53,
         "Type1": "Insecte",
@@ -1152,7 +1152,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/aaron/charmillon.png"
       },
       {
-        "Id": 3,
+        "Id": 416,
         "Nom": "Apireine",
         "Niveau": 54,
         "Type1": "Insecte",
@@ -1167,7 +1167,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/aaron/apireine.png"
       },
       {
-        "Id": 4,
+        "Id": 214,
         "Nom": "Scarhino",
         "Niveau": 54,
         "Type1": "Insecte",
@@ -1177,7 +1177,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/aaron/scarhino.png"
       },
       {
-        "Id": 5,
+        "Id": 452,
         "Nom": "Drascore",
         "Niveau": 57,
         "Type1": "Poison",
@@ -1202,7 +1202,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen4/terry.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 195,
         "Nom": "Maraiste",
         "Niveau": 55,
         "Type1": "Eau",
@@ -1219,7 +1219,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/terry/maraiste.png"
       },
       {
-        "Id": 2,
+        "Id": 185,
         "Nom": "Simularbre",
         "Niveau": 56,
         "Type1": "Roche",
@@ -1229,7 +1229,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/terry/simularbre.png"
       },
       {
-        "Id": 3,
+        "Id": 76,
         "Nom": "Grolem",
         "Niveau": 56,
         "Type1": "Roche",
@@ -1246,7 +1246,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/terry/grolem.png"
       },
       {
-        "Id": 4,
+        "Id": 340,
         "Nom": "Barbicha",
         "Niveau": 55,
         "Type1": "Eau",
@@ -1263,7 +1263,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/terry/barbicha.png"
       },
       {
-        "Id": 5,
+        "Id": 450,
         "Nom": "Hippodocus",
         "Niveau": 59,
         "Type1": "Sol",
@@ -1282,7 +1282,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen4/adrien.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 78,
         "Nom": "Galopa",
         "Niveau": 58,
         "Type1": "Feu",
@@ -1292,7 +1292,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/adrien/galopa.png"
       },
       {
-        "Id": 2,
+        "Id": 208,
         "Nom": "Steelix",
         "Niveau": 57,
         "Type1": "Acier",
@@ -1319,7 +1319,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/adrien/steelix.png"
       },
       {
-        "Id": 3,
+        "Id": 426,
         "Nom": "Grodrive",
         "Niveau": 58,
         "Type1": "Spectre",
@@ -1336,7 +1336,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/adrien/grodrive.png"
       },
       {
-        "Id": 4,
+        "Id": 428,
         "Nom": "Lockpin",
         "Niveau": 57,
         "Type1": "Normal",
@@ -1346,7 +1346,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/adrien/lockpin.png"
       },
       {
-        "Id": 5,
+        "Id": 392,
         "Nom": "Simiabraz",
         "Niveau": 61,
         "Type1": "Feu",
@@ -1372,7 +1372,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen4/lucio.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 122,
         "Nom": "M. Mime",
         "Niveau": 59,
         "Type1": "Psy",
@@ -1382,7 +1382,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/lucio/mmime.png"
       },
       {
-        "Id": 2,
+        "Id": 203,
         "Nom": "Girafarig",
         "Niveau": 59,
         "Type1": "Normal",
@@ -1397,7 +1397,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/lucio/girafarig.png"
       },
       {
-        "Id": 3,
+        "Id": 308,
         "Nom": "Charmina",
         "Niveau": 60,
         "Type1": "Combat",
@@ -1407,7 +1407,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/lucio/charmina.png"
       },
       {
-        "Id": 4,
+        "Id": 65,
         "Nom": "Alakazam",
         "Niveau": 60,
         "Type1": "Psy",
@@ -1417,7 +1417,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/lucio/alakazam.png"
       },
       {
-        "Id": 5,
+        "Id": 437,
         "Nom": "Archéodong",
         "Niveau": 63,
         "Type1": "Sol",
@@ -1449,7 +1449,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen4/cynthia.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 442,
         "Nom": "Spiritomb",
         "Niveau": 61,
         "Type1": "Spectre",
@@ -1465,7 +1465,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/cynthia/spiritomb.png"
       },
       {
-        "Id": 2,
+        "Id": 407,
         "Nom": "Roserade",
         "Niveau": 60,
         "Type1": "Plante",
@@ -1481,7 +1481,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/cynthia/roserade.png"
       },
       {
-        "Id": 3,
+        "Id": 423,
         "Nom": "Tritosor",
         "Niveau": 60,
         "Type1": "Eau",
@@ -1498,7 +1498,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/cynthia/tritosor.png"
       },
       {
-        "Id": 4,
+        "Id": 448,
         "Nom": "Lucario",
         "Niveau": 63,
         "Type1": "Combat",
@@ -1519,7 +1519,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen4/cynthia/lucario.png"
       },
       {
-        "Id": 5,
+        "Id": 445,
         "Nom": "Carchacrok",
         "Niveau": 66,
         "Type1": "Dragon",
@@ -1544,7 +1544,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen5/anis.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 563,
         "Nom": "Tutankafer",
         "Niveau": 71,
         "Type1": "Spectre",
@@ -1559,7 +1559,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/anis/tutankafer.png"
       },
       {
-        "Id": 2,
+        "Id": 593,
         "Nom": "Moyade",
         "Niveau": 71,
         "Type1": "Eau",
@@ -1578,7 +1578,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/anis/moyade.png"
       },
       {
-        "Id": 3,
+        "Id": 478,
         "Nom": "Momartik",
         "Niveau": 71,
         "Type1": "Glace",
@@ -1594,7 +1594,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/anis/momartik.png"
       },
       {
-        "Id": 4,
+        "Id": 426,
         "Nom": "Grodrive",
         "Niveau": 71,
         "Type1": "Spectre",
@@ -1611,7 +1611,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/anis/grodrive.png"
       },
       {
-        "Id": 5,
+        "Id": 623,
         "Nom": "Golemastoc",
         "Niveau": 71,
         "Type1": "Sol",
@@ -1628,7 +1628,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/anis/golemastoc.png"
       },
       {
-        "Id": 6,
+        "Id": 609,
         "Nom": "Lugulabre",
         "Niveau": 73,
         "Type1": "Spectre",
@@ -1657,7 +1657,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen5/pieris.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 319,
         "Nom": "Sharpedo",
         "Niveau": 71,
         "Type1": "Eau",
@@ -1667,7 +1667,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/pieris/sharpedo.png"
       },
       {
-        "Id": 2,
+        "Id": 510,
         "Nom": "Léopardus",
         "Niveau": 71,
         "Type1": "Ténèbres",
@@ -1677,7 +1677,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/pieris/leopardus.png"
       },
       {
-        "Id": 3,
+        "Id": 560,
         "Nom": "Baggaïd",
         "Niveau": 71,
         "Type1": "Ténèbres",
@@ -1692,7 +1692,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/pieris/baggaid.png"
       },
       {
-        "Id": 4,
+        "Id": 452,
         "Nom": "Drascore",
         "Niveau": 71,
         "Type1": "Poison",
@@ -1708,7 +1708,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/pieris/drascore.png"
       },
       {
-        "Id": 5,
+        "Id": 553,
         "Nom": "Crocorible",
         "Niveau": 71,
         "Type1": "Sol",
@@ -1725,7 +1725,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/pieris/crocorible.png"
       },
       {
-        "Id": 6,
+        "Id": 625,
         "Nom": "Scalproie",
         "Niveau": 73,
         "Type1": "Ténèbres",
@@ -1756,7 +1756,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen5/percila.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 518,
         "Nom": "Mushana",
         "Niveau": 71,
         "Type1": "Psy",
@@ -1766,7 +1766,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/percila/mushana.png"
       },
       {
-        "Id": 2,
+        "Id": 561,
         "Nom": "Cryptéro",
         "Niveau": 71,
         "Type1": "Psy",
@@ -1776,7 +1776,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/percila/cryptero.png"
       },
       {
-        "Id": 3,
+        "Id": 437,
         "Nom": "Archéodong",
         "Niveau": 71,
         "Type1": "Acier",
@@ -1798,7 +1798,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/percila/archeodong.png"
       },
       {
-        "Id": 4,
+        "Id": 579,
         "Nom": "Symbios",
         "Niveau": 71,
         "Type1": "Psy",
@@ -1808,7 +1808,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/percila/symbios.png"
       },
       {
-        "Id": 5,
+        "Id": 576,
         "Nom": "Sidérella",
         "Niveau": 71,
         "Type1": "Psy",
@@ -1818,7 +1818,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/percila/siderella.png"
       },
       {
-        "Id": 6,
+        "Id": 376,
         "Nom": "Métalosse",
         "Niveau": 73,
         "Type1": "Acier",
@@ -1849,7 +1849,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen5/kunz.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 286,
         "Nom": "Chapignon",
         "Niveau": 71,
         "Type1": "Plante",
@@ -1866,7 +1866,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/kunz/chapignon.png"
       },
       {
-        "Id": 2,
+        "Id": 539,
         "Nom": "Karaclée",
         "Niveau": 71,
         "Type1": "Combat",
@@ -1876,7 +1876,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/kunz/karaclee.png"
       },
       {
-        "Id": 3,
+        "Id": 538,
         "Nom": "Judokrak",
         "Niveau": 71,
         "Type1": "Combat",
@@ -1886,7 +1886,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/kunz/judokrak.png"
       },
       {
-        "Id": 4,
+        "Id": 454,
         "Nom": "Coatox",
         "Niveau": 71,
         "Type1": "Poison",
@@ -1903,7 +1903,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/kunz/coatox.png"
       },
       {
-        "Id": 5,
+        "Id": 620,
         "Nom": "Shaofouine",
         "Niveau": 71,
         "Type1": "Combat",
@@ -1913,7 +1913,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/kunz/shaofouine.png"
       },
       {
-        "Id": 6,
+        "Id": 534,
         "Nom": "Bétochef",
         "Niveau": 73,
         "Type1": "Combat",
@@ -1932,7 +1932,7 @@
     "Avatar": "http://localhost:3001/assets/dresseur/gen5/goyah.png",
     "Pokemon": [
       {
-        "Id": 1,
+        "Id": 617,
         "Nom": "Limaspeed",
         "Niveau": 75,
         "Type1": "Insecte",
@@ -1942,7 +1942,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/goyah/limaspeed.png"
       },
       {
-        "Id": 2,
+        "Id": 626,
         "Nom": "Frison",
         "Niveau": 75,
         "Type1": "Normal",
@@ -1952,7 +1952,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/goyah/frison.png"
       },
       {
-        "Id": 3,
+        "Id": 621,
         "Nom": "Drakkarmin",
         "Niveau": 75,
         "Type1": "Dragon",
@@ -1962,7 +1962,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/goyah/drakkarmin.png"
       },
       {
-        "Id": 4,
+        "Id": 584,
         "Nom": "Sorbouboul",
         "Niveau": 75,
         "Type1": "Glace",
@@ -1972,7 +1972,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/goyah/sorbouboul.png"
       },
       {
-        "Id": 5,
+        "Id": 589,
         "Nom": "Lançargot",
         "Niveau": 75,
         "Type1": "Insecte",
@@ -1993,7 +1993,7 @@
         "Photo": "http://localhost:3001/assets/pokemon/gen5/goyah/lancargot.png"
       },
       {
-        "Id": 6,
+        "Id": 637,
         "Nom": "Pyrax",
         "Niveau": 77,
         "Type1": "Insecte",
