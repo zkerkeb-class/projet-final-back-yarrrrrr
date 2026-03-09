@@ -3,6 +3,31 @@ import Dresseur from "../schema/dresseurs.js";
 
 const router = express.Router();
 
+// helper to augment a "Pokemon" object from dresseur.json with stats from pokeapi
+async function enrichPokemonStats(pkm) {
+  try {
+    const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${pkm.Id}`);
+    if (!res.ok) return pkm;
+    const d = await res.json();
+    const stats = {
+      hp: d.stats[0].base_stat,
+      attack: d.stats[1].base_stat,
+      defense: d.stats[2].base_stat,
+      spAtk: d.stats[3].base_stat,
+      spDef: d.stats[4].base_stat,
+      speed: d.stats[5].base_stat,
+    };
+    return { ...pkm, stats };
+  } catch (err) {
+    // in case of error, return object unchanged with dummy stats
+    return { ...pkm, stats: { hp: 50, attack: 50, defense: 50, spAtk: 50, spDef: 50, speed: 50 } };
+  }
+}
+
+async function enrichList(list) {
+  return Promise.all(list.map((p) => enrichPokemonStats(p)));
+}
+
 /**
  * @swagger
  * /api/dresseurs:
@@ -134,10 +159,17 @@ router.get("/:id", async (req, res) => {
       return res.status(400).json({ message: "ID invalide" });
     }
 
-    const dresseur = await Dresseur.findOne({ Id: id });
+    let dresseur = await Dresseur.findOne({ Id: id });
 
     if (!dresseur) {
       return res.status(404).json({ message: "Dresseur non trouvé" });
+    }
+
+    // enrich each pokemon with stats before returning
+    if (dresseur.Pokemon && dresseur.Pokemon.length) {
+      const enriched = await enrichList(dresseur.Pokemon);
+      dresseur = dresseur.toObject();
+      dresseur.Pokemon = enriched;
     }
 
     res.status(200).json(dresseur);

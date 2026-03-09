@@ -63,12 +63,13 @@ router.get("/:userId", async (req, res) => {
 router.get("/:userId/:generationId", async (req, res) => {
   try {
     const { userId, generationId } = req.params;
-    const team = await Team.findOne({
+    let team = await Team.findOne({
       userId: parseInt(userId),
       generationId: parseInt(generationId),
     });
     if (!team) {
-      return res.status(404).json({ message: "Équipe non trouvée" });
+      // return empty structure rather than 404, client expects this
+      return res.status(200).json({ pokemonTeam: [] });
     }
     res.status(200).json(team);
   } catch (error) {
