@@ -97,4 +97,26 @@ router.post("/:userId/:generationId/roll", async (req, res) => {
   }
 });
 
+/**
+ * POST /api/pools/:userId/reward-roll
+ * Grant one additional roll to the user
+ */
+router.post("/:userId/reward-roll", async (req, res) => {
+  try {
+    const { userId } = req.params;
+    let userState = await UserState.findOne({ userId: parseInt(userId) });
+
+    if (!userState) {
+      userState = new UserState({ userId: parseInt(userId), rollsLeft: 2 });
+    }
+
+    userState.rollsLeft += 1;
+    await userState.save();
+
+    res.status(200).json({ rollsLeft: userState.rollsLeft });
+  } catch (error) {
+    res.status(500).json({ message: 'Erreur serveur', error: error.message });
+  }
+});
+
 export default router;
