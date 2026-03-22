@@ -128,6 +128,65 @@ router.get("/gen/:genNumber", async (req, res) => {
 
 /**
  * @swagger
+ * /api/dresseurs/{id}/pokemon-ids:
+ *   get:
+ *     summary: Récupérer la liste des IDs Pokémon d'un dresseur
+ *     tags: [Dresseurs]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: integer
+ *         description: ID du dresseur
+ *     responses:
+ *       200:
+ *         description: Liste des IDs Pokémon du dresseur
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 dresseurId:
+ *                   type: integer
+ *                 pokemonIds:
+ *                   type: array
+ *                   items:
+ *                     type: integer
+ *       404:
+ *         description: Dresseur non trouvé
+ *       500:
+ *         description: Erreur serveur
+ */
+router.get("/:id/pokemon-ids", async (req, res) => {
+  try {
+    const id = parseInt(req.params.id);
+
+    if (isNaN(id)) {
+      return res.status(400).json({ message: "ID invalide" });
+    }
+
+    const dresseur = await Dresseur.findOne({ Id: id }, { Id: 1, Pokemon: 1, _id: 0 });
+
+    if (!dresseur) {
+      return res.status(404).json({ message: "Dresseur non trouvé" });
+    }
+
+    const pokemonIds = (dresseur.Pokemon || [])
+      .map((pokemon) => pokemon.Id)
+      .filter((pokemonId) => Number.isFinite(pokemonId));
+
+    return res.status(200).json({
+      dresseurId: dresseur.Id,
+      pokemonIds,
+    });
+  } catch (error) {
+    return res.status(500).json({ message: "Erreur serveur", error: error.message });
+  }
+});
+
+/**
+ * @swagger
  * /api/dresseurs/{id}:
  *   get:
  *     summary: Récupérer un dresseur par son ID
