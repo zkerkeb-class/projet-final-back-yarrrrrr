@@ -1,0 +1,240 @@
+import express from "express";
+import Dresseur from "../schema/dresseurs.js";
+
+const router = express.Router();
+
+// helper to augment a "Pokemon" object from dresseur.json with stats from pokeapi
+async function enrichPokemonStats(pkm) {
+  try {
+    const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${pkm.Id}`);
+    if (!res.ok) return pkm;
+    const d = await res.json();
+    const stats = {
+      hp: d.stats[0].base_stat,
+      attack: d.stats[1].base_stat,
+      defense: d.stats[2].base_stat,
+      spAtk: d.stats[3].base_stat,
+      spDef: d.stats[4].base_stat,
+      speed: d.stats[5].base_stat,
+    };
+    return { ...pkm, stats };
+  } catch (err) {
+    // in case of error, return object unchanged with dummy stats
+    return { ...pkm, stats: { hp: 50, attack: 50, defense: 50, spAtk: 50, spDef: 50, speed: 50 } };
+  }
+}
+
+async function enrichList(list) {
+  return Promise.all(list.map((p) => enrichPokemonStats(p)));
+}
+
+/**
+ * @swagger
+ * /api/dresseurs:
+ *   get:
+ *     summary: Récupérer tous les dresseurs
+ *     tags: [Dresseurs]
+ *     responses:
+ *       200:
+ *         description: Liste de tous les dresseurs
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 type: object
+ *       500:
+ *         description: Erreur serveur
+ */
+router.get("/", async (req, res) => {
+  try {
+    const dresseurs = await Dresseur.find();
+    res.status(200).json(dresseurs);
+  } catch (error) {
+    res.status(500).json({ message: "Erreur serveur", error: error.message });
+  }
+});
+
+/**
+ * @swagger
+ * /api/dresseurs/gen/{genNumber}:
+ *   get:
+ *     summary: Récupérer les dresseurs d'une génération spécifique
+ *     tags: [Dresseurs]
+ *     parameters:
+ *       - in: path
+ *         name: genNumber
+ *         required: true
+ *         schema:
+ *           type: integer
+ *         description: Numéro de la génération (1-5)
+ *     responses:
+ *       200:
+ *         description: Liste des 5 dresseurs de la génération avec leurs pokémons
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 type: object
+ *                 properties:
+ *                   Id:
+ *                     type: number
+ *                   Gen:
+ *                     type: number
+ *                   Nom:
+ *                     type: string
+ *                   Type:
+ *                     type: string
+ *                   Avatar:
+ *                     type: string
+ *                   Pokemon:
+ *                     type: array
+ *                     items:
+ *                       type: object
+ *       400:
+ *         description: Numéro de génération invalide
+ *       404:
+ *         description: Aucun dresseur trouvé pour cette génération
+ *       500:
+ *         description: Erreur serveur
+ */
+router.get("/gen/:genNumber", async (req, res) => {
+  try {
+    const genNumber = parseInt(req.params.genNumber);
+
+    // Validation du numéro de génération
+    if (isNaN(genNumber) || genNumber < 1 || genNumber > 5) {
+      return res.status(400).json({
+        message:
+          "Numéro de génération invalide. Veuillez fournir un nombre entre 1 et 5.",
+      });
+    }
+
+    // Récupérer les dresseurs de la génération spécifiée
+    const dresseurs = await Dresseur.find({ Gen: genNumber });
+
+    if (!dresseurs || dresseurs.length === 0) {
+      return res.status(404).json({
+        message: `Aucun dresseur trouvé pour la génération ${genNumber}`,
+      });
+    }
+
+    res.status(200).json(dresseurs);
+  } catch (error) {
+    res.status(500).json({ message: "Erreur serveur", error: error.message });
+  }
+});
+
+/**
+ * @swagger
+ * /api/dresseurs/{id}/pokemon-ids:
+ *   get:
+ *     summary: Récupérer la liste des IDs Pokémon d'un dresseur
+ *     tags: [Dresseurs]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: integer
+ *         description: ID du dresseur
+ *     responses:
+ *       200:
+ *         description: Liste des IDs Pokémon du dresseur
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 dresseurId:
+ *                   type: integer
+ *                 pokemonIds:
+ *                   type: array
+ *                   items:
+ *                     type: integer
+ *       404:
+ *         description: Dresseur non trouvé
+ *       500:
+ *         description: Erreur serveur
+ */
+router.get("/:id/pokemon-ids", async (req, res) => {
+  try {
+    const id = parseInt(req.params.id);
+
+    if (isNaN(id)) {
+      return res.status(400).json({ message: "ID invalide" });
+    }
+
+    const dresseur = await Dresseur.findOne({ Id: id }, { Id: 1, Pokemon: 1, _id: 0 });
+
+    if (!dresseur) {
+      return res.status(404).json({ message: "Dresseur non trouvé" });
+    }
+
+    const pokemonIds = (dresseur.Pokemon || [])
+      .map((pokemon) => pokemon.Id)
+      .filter((pokemonId) => Number.isFinite(pokemonId));
+
+    return res.status(200).json({
+      dresseurId: dresseur.Id,
+      pokemonIds,
+    });
+  } catch (error) {
+    return res.status(500).json({ message: "Erreur serveur", error: error.message });
+  }
+});
+
+/**
+ * @swagger
+ * /api/dresseurs/{id}:
+ *   get:
+ *     summary: Récupérer un dresseur par son ID
+ *     tags: [Dresseurs]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: integer
+ *         description: ID du dresseur
+ *     responses:
+ *       200:
+ *         description: Détails du dresseur avec ses pokémons
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *       404:
+ *         description: Dresseur non trouvé
+ *       500:
+ *         description: Erreur serveur
+ */
+router.get("/:id", async (req, res) => {
+  try {
+    const id = parseInt(req.params.id);
+
+    if (isNaN(id)) {
+      return res.status(400).json({ message: "ID invalide" });
+    }
+
+    let dresseur = await Dresseur.findOne({ Id: id });
+
+    if (!dresseur) {
+      return res.status(404).json({ message: "Dresseur non trouvé" });
+    }
+
+    // enrich each pokemon with stats before returning
+    if (dresseur.Pokemon && dresseur.Pokemon.length) {
+      const enriched = await enrichList(dresseur.Pokemon);
+      dresseur = dresseur.toObject();
+      dresseur.Pokemon = enriched;
+    }
+
+    res.status(200).json(dresseur);
+  } catch (error) {
+    res.status(500).json({ message: "Erreur serveur", error: error.message });
+  }
+});
+
+export default router;
